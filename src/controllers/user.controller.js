@@ -20,12 +20,12 @@ export const getAllUsers = async (req, res, next) => {
   }
 };
 
-/**
- * Controller to get a single user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+// /**
+//  * Controller to get a single user
+//  * @param  {object} req - request object
+//  * @param {object} res - response object
+//  * @param {Function} next
+//  */
 export const getUser = async (req, res, next) => {
   try {
     const data = await UserService.getUser(req.params._id);
@@ -39,12 +39,12 @@ export const getUser = async (req, res, next) => {
   }
 };
 
-/**
- * Controller to create a new user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+// /**
+//  * Controller to create a new user
+//  * @param  {object} req - request object
+//  * @param {object} res - response object
+//  * @param {Function} next
+//  */
 export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);

@@ -8,11 +8,10 @@ import userRoute from './user.route';
  * @returns router
  */
 const routes = () => {
-  router.get('/', (req, res) => {
+  router.get('/newuser1', (req, res) => {
     res.json('Welcome');
   });
-  router.use('/users', userRoute);
-
+  router.use('/newuser1', userRoute);
   return router;
 };
 
