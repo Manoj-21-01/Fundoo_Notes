@@ -66,3 +66,4 @@ export function genericErrorHandler(err, req, res, next) {
     message: err.message
   });
 }
+
