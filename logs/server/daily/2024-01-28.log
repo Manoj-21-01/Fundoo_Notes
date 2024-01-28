@@ -1,0 +1,97 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:03:19.403Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:03:19.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:03:31.600Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:03:31.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:04:52.228Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:04:52.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:06:08.007Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:06:08.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:06:12.041Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:06:12.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:07:22.502Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:07:22.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:10:39.693Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:10:39.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:11:32.926Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:11:32.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:11:35.332Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:11:35.354Z"}
+error: 
+    status - 500 
+    message - ValidationError: "first_name" is required 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:11:43.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:12:02.041Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:12:02.070Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is not allowed 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:12:06.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:18:07.021Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:18:07.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:18:19.656Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:18:19.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:18:35.084Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:18:35.103Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email_id" is required 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:18:38.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:18:52.441Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:18:52.472Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'json')
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:31:9)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:18:56.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:25:01.796Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:25:01.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:26:22.799Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:26:22.819Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:18:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:26:28.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:27:26.731Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:27:26.749Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:16:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:27:30.361Z"}

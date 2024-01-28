@@ -1,0 +1,146 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:36:18.320Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:36:18.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:38:13.291Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:38:13.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:38:16.455Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:38:16.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:38:20.567Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:38:20.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:38:24.503Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:38:24.540Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:16:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:38:40.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:39:33.007Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:39:33.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:39:35.176Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:39:35.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:39:39.769Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:39:39.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:39:50.215Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:39:50.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:39:53.812Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:39:53.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:44:36.288Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:44:36.303Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:16:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T18:45:23.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:47:41.738Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:47:41.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:51:09.106Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:51:09.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:52:42.590Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:52:42.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:54:23.016Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:54:23.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:57:42.150Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:57:42.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T18:59:21.233Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T18:59:21.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:00:00.066Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:00:00.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:02:23.541Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:02:23.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:02:35.878Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:02:35.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:05:01.555Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:05:01.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:05:15.770Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:05:15.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:07:51.442Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:07:51.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:08:34.768Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:08:34.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:09:29.421Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:09:29.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:10:18.180Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:10:18.196Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:16:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T19:11:13.109Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:16:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T19:11:20.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:13:31.237Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:13:31.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:15:39.812Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:15:39.831Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:17:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T19:15:43.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:17:14.783Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:17:14.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:21:47.042Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:21:47.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-28T19:22:00.095Z"}
+info: Connected to the database. {"timestamp":"2024-01-28T19:22:00.111Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:17:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-28T19:22:06.002Z"}

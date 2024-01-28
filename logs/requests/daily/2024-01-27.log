@@ -1,0 +1,24 @@
+info: ::1 - - [27/Jan/2024:08:37:07 +0000] "GET /api/v1/newuser1/65b2618d1d29ce43a0ac8079 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:08:37:16 +0000] "GET /api/v1/newuser1/65b2618d1d29ce43a0ac8079 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:08:43:47 +0000] "POST /api/v1/newuser1/ HTTP/1.1" 201 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:08:44:57 +0000] "GET /api/v1/newuser1/65b4c2430c490236d8d55d41 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:29:44 +0000] "POST /api/v1/newuser1 HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:29:49 +0000] "POST /api/v1/newuser1 HTTP/1.1" 201 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:30:01 +0000] "GET /api/v1/newuser1/65b4cd0d1c94330f8c97cec6 HTTP/1.1" 500 55 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:30:16 +0000] "POST /api/v1/newuser1/65b4cd0d1c94330f8c97cec6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:31:49 +0000] "GET /api/v1/newuser1/65b4cd0d1c94330f8c97cec6 HTTP/1.1" 500 55 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:33:07 +0000] "POST /api/v1/newuser1/65b4cd0d1c94330f8c97cec6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:33:13 +0000] "POST /api/v1/newuser1/ HTTP/1.1" 201 264 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [27/Jan/2024:09:33:28 +0000] "GET /api/v1/newuser1/65b4cdd9acc39045800ae01c HTTP/1.1" 200 264 "-" "PostmanRuntime/7.36.1"
+

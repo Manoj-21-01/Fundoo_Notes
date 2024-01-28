@@ -1,0 +1,22 @@
+info: ::1 - - [28/Jan/2024:18:03:37 +0000] "GET /api/v1/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:18:03:37 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:18:08:13 +0000] "POST /api/v1/user/registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:10:42 +0000] "POST /api/v1/user/registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:11:43 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:12:06 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:18:38 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 59 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:18:56 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 87 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:26:28 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:26:38 +0000] "POST /api/v1/user/registration HTTP/1.1" 201 321 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:27:30 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+

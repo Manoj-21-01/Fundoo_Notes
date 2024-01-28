@@ -1,0 +1,94 @@
+info: ::1 - - [28/Jan/2024:18:38:40 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:39:12 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:39:55 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:40:05 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:40:16 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:44:41 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:45:23 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:45:41 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:45:45 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:47:46 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:47:50 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:51:14 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:52:46 +0000] "POST /api/v1/user/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:52:53 +0000] "POST /api/v1/user/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:54:27 +0000] "POST /api/v1/user/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:54:31 +0000] "POST /api/v1/user/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:57:45 +0000] "POST /api/v1/user/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:00:03 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:00:12 +0000] "GET /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:00:18 +0000] "GET /api/v1/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:00:23 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:03:26 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:05:06 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:05:17 +0000] "POST /api/v1/user/login HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:08:36 +0000] "POST /api/v1/user/login HTTP/1.1" 401 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:09:22 +0000] "POST /api/v1/user/login HTTP/1.1" 401 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:09:32 +0000] "POST /api/v1/user/login HTTP/1.1" 401 53 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:10:22 +0000] "POST /api/v1/user/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:10:27 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:10:33 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:10:42 +0000] "POST /api/v1/user/login HTTP/1.1" 401 38 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:11:13 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:11:20 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:15:43 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:15:52 +0000] "POST /api/v1/user/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:16:06 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:16:31 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:16:36 +0000] "POST /api/v1/user/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:16:40 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:16:57 +0000] "POST /api/v1/user/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:17:16 +0000] "POST /api/v1/user/login HTTP/1.1" 200 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:21:14 +0000] "POST /api/v1/user/registration HTTP/1.1" 201 322 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:22:06 +0000] "POST /api/v1/user/registration HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:22:17 +0000] "POST /api/v1/user/registration HTTP/1.1" 201 50 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:22:40 +0000] "POST /api/v1/user/login HTTP/1.1" 200 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:22:45 +0000] "POST /api/v1/user/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:19:22:50 +0000] "POST /api/v1/user/login HTTP/1.1" 401 38 "-" "PostmanRuntime/7.36.1"
+
