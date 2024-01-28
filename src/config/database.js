@@ -3,7 +3,7 @@ import logger from './logger';
 
 const database = async () => {
   try {
-    // Replace database value in the .env file with your database config url
+    // Replace the database value in the .env file with your database config url
     const DATABASE =
       process.env.NODE_ENV === 'test'
         ? process.env.DATABASE_TEST
@@ -17,7 +17,7 @@ const database = async () => {
     });
     logger.info('Connected to the database.');
   } catch (error) {
-    logger.error('Could not connect to the database.', error);
+    logger.error('Could not able to connect to the database.', error);
   }
 };
 export default database;
