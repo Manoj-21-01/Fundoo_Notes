@@ -1,15 +1,56 @@
 import User from '../models/user.model';
-
+import bcrypt from "bcrypt";
 //get all users
+
 export const getAllUsers = async () => {
   const data = await User.find();
   return data;
 };
 
-//create new user
+// create new user
 export const newUser = async (body) => {
-  const data = await User.create(body);
+  const { firstName, lastName, emailid, password } = body;
+
+  // Check if the user with the same email already exists
+  const existingUser = await User.findOne({ emailid });
+  if (existingUser) {
+    throw new Error('User with the same email already exists');
+  }
+
+  // Hashing the password using bcrypt
+  const saltRounds = 10;
+  const hashedPassword = await bcrypt.hash(password, saltRounds);
+
+  // Create a new user with hashed password
+  const newUser = new User({
+    firstName,
+    lastName,
+    emailid,
+    password: hashedPassword,
+  });
+
+  // Save the new user to the database
+  const data = await newUser.save();
   return data;
+};
+
+// login
+export const loginUser = async (emailid, password) => {
+  // Finding the user with the given email
+  const user = await User.findOne({ emailid });
+  if (!user) {
+    throw new Error('Invalid email');
+  }
+
+  // Comparing the entered password with the hashed password in the database
+  const passwordMatch = await bcrypt.compare(password, user.password);
+  if (!passwordMatch) {
+    // Throw an error if the password doesn't match
+    throw new Error('Invalid password');
+  }
+
+  // Returning user data if login is successful
+  return user;
 };
 
 //update single user
