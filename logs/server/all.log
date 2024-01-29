@@ -595,3 +595,5 @@ error:
    {"timestamp":"2024-01-28T19:22:06.002Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T05:50:25.760Z"}
 info: Connected to the database. {"timestamp":"2024-01-29T05:50:25.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:18:31.490Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:18:31.507Z"}
