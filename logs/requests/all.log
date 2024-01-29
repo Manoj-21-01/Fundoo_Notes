@@ -210,3 +210,15 @@ info: ::1 - - [28/Jan/2024:19:22:45 +0000] "POST /api/v1/user/login HTTP/1.1" 40
 
 info: ::1 - - [28/Jan/2024:19:22:50 +0000] "POST /api/v1/user/login HTTP/1.1" 401 38 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [29/Jan/2024:05:50:41 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:51:09 +0000] "POST /api/v1/user/login HTTP/1.1" 200 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:51:16 +0000] "POST /api/v1/user/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:51:27 +0000] "POST /api/v1/user/login HTTP/1.1" 401 38 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:51:47 +0000] "GET /api/v1/user/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:53:32 +0000] "GET /api/v1/user/manojveluru1@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
