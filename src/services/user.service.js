@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
+import jwt from 'jsonwebtoken';
 //get all users
 
 export const getAllUsers = async () => {
@@ -35,46 +36,45 @@ export const newUser = async (body) => {
 };
 
 // login
-export const loginUser = async (emailid, password) => {
+export const loginUser = async (body) => {
   // Finding the user with the given email
-  const user = await User.findOne({ emailid });
-  if (!user) {
-    throw new Error('Invalid email');
-  }
+  const user = await User.findOne({ emailid: body.emailid  });
+  if (user) {
 
   // Comparing the entered password with the hashed password in the database
-  const passwordMatch = await bcrypt.compare(password, user.password);
-  if (!passwordMatch) {
-    // Throw an error if the password doesn't match
-    throw new Error('Invalid password');
+  const passwordMatch = await bcrypt.compare(body.password, user.password);
+  if (passwordMatch) {
+    var token = jwt.sign({ emailid: 'naniguy1@gmail.com' }, 'shhhhh');
+    return token;
   }
+  else {throw new Error ('Invalid password')};
+}
+else {throw new Error ('Invalid emailid')};
 
-  // Returning user data if login is successful
-  return user;
 };
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
-    }
-  );
-  return data;
-};
+// //update single user
+// export const updateUser = async (_id, body) => {
+//   const data = await User.findByIdAndUpdate(
+//     {
+//       _id
+//     },
+//     body,
+//     {
+//       new: true
+//     }
+//   );
+//   return data;
+// };
 
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
+// //delete single user
+// export const deleteUser = async (id) => {
+//   await User.findByIdAndDelete(id);
+//   return '';
+// };
 
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
-  return data;
-};
+// //get single user
+// export const getUser = async (id) => {
+//   const data = await User.findById(id);
+//   return data;
+// };

@@ -1,0 +1,57 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:42:50.133Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:42:50.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:43:02.880Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:43:02.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:43:10.036Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:43:10.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:48:14.665Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:48:14.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:48:17.448Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:48:17.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:55:57.600Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:55:57.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:56:01.885Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:56:01.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:56:09.163Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:56:09.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:56:16.346Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:56:16.365Z"}
+error: 
+    status - 500 
+    message - Error: Invalid emailid
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:33:13)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T04:56:30.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:56:44.867Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:56:44.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:56:48.124Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:56:48.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:57:25.206Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:57:25.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:57:28.516Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:57:28.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:57:33.816Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:57:33.835Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:31:15)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/note/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T04:57:38.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:57:50.920Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T04:57:50.938Z"}

@@ -1,0 +1,40 @@
+info: ::1 - - [30/Jan/2024:04:28:05 +0000] "POST /api/v1/note HTTP/1.1" 201 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:28:23 +0000] "POST /api/v1/note/login HTTP/1.1" 401 57 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:28:33 +0000] "POST /api/v1/note/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:36:06 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:36:48 +0000] "GET /api/v1/note/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:36:53 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:37:00 +0000] "GET /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:37:07 +0000] "POST /api/v1/note HTTP/1.1" 201 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:52:34 +0000] "POST /api/v1/note HTTP/1.1" 201 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:52:45 +0000] "POST /api/v1/note/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:53:24 +0000] "POST /api/v1/note//login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:53:33 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:53:48 +0000] "POST /api/v1/note/login HTTP/1.1" 401 41 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:56:19 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:56:30 +0000] "POST /api/v1/note HTTP/1.1" 500 50 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:56:50 +0000] "POST /api/v1/note HTTP/1.1" 201 263 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:56:59 +0000] "POST /api/v1/note/login HTTP/1.1" 200 254 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:57:38 +0000] "POST /api/v1/note/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:57:55 +0000] "POST /api/v1/note/login HTTP/1.1" 200 254 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:04:58:01 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
