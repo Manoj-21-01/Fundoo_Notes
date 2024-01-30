@@ -12,4 +12,11 @@ export const newNote = async (body) => {
 export const loginNote = async (body) => {
   // Finding the note with the given email
   const note = await Note.findOne({ title: body.title  });
+  return note;
 };
+
+//delete note
+export const deleteNoteById = async (noteId) => {
+    await Note.findByIdAndDelete(noteId);
+    return null;
+  };
