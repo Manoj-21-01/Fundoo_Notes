@@ -20,3 +20,15 @@ export const deleteNoteById = async (noteId) => {
     await Note.findByIdAndDelete(noteId);
     return null;
   };
+
+  //update note
+  export const updateNote = async (noteId, body) => {
+    const data = await Note.findByIdAndUpdate(
+      noteId,
+      body,
+      {
+        new: true
+      }
+    );
+    return data;
+  };

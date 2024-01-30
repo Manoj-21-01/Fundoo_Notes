@@ -48,7 +48,6 @@ export const deleteNote = async (req, res, next) => {
     try {
       const noteId = req.params.noteId;
       const data = await NoteService.deleteNoteById(noteId);
-  
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -59,4 +58,17 @@ export const deleteNote = async (req, res, next) => {
     }
   };
   
-  
+  //controller to update a note
+  export const updateNote = async (req, res, next) => {
+    try {
+      const noteId = req.params.noteId;
+      const data = await NoteService.updateNote(noteId, req.body);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note update successful',
+      });
+    } catch (error) {
+      next(error);
+    }
+  };

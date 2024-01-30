@@ -13,4 +13,6 @@ router.post('/login', noteController.loginNote);
 //route to delete a note
 router.delete('/note/:noteId', noteController.deleteNote);
 
+//route to update a note
+router.put('/note/:noteId', noteController.updateNote);
 export default router;
