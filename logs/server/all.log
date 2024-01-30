@@ -1311,3 +1311,476 @@ error:
    {"timestamp":"2024-01-30T04:57:38.343Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T04:57:50.920Z"}
 info: Connected to the database. {"timestamp":"2024-01-30T04:57:50.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:12:30.018Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:12:30.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:45:56.203Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:45:56.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:47:50.857Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:47:50.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:47:54.123Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:47:54.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:48:02.299Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:48:02.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:48:07.786Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:48:07.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:48:10.752Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:48:10.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:48:18.726Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:48:18.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:53:55.177Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:53:55.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:54:00.528Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:54:00.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:54:05.908Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:54:05.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:54:12.516Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:54:12.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:54:17.259Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:54:17.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:57:03.332Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:57:03.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:57:08.651Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:57:08.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:57:11.378Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:57:11.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:58:13.999Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:58:14.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T05:58:46.364Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T05:58:46.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:01:40.047Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:01:40.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:03:05.367Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:03:05.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:03:08.212Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:03:08.227Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\project1_googleapi\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\project1_googleapi\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project1_googleapi\node_modules\express\lib\response.js:278:15)
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:46:35)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:03:13.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:03:35.709Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:03:35.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:03:40.615Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:03:40.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:05:22.059Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:05:22.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:06:04.256Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:06:04.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:06:09.246Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:06:09.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:06:54.016Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:06:54.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:07:14.833Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:07:14.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:08:01.396Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:08:01.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:08:14.238Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:08:14.258Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Note is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:46:5)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:43:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:08:14.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:09:06.474Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:09:06.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:12:02.121Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:12:02.146Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'remove')
+    at exports.deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:45:14)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:12:06.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:15:32.509Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:15:32.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:16:54.472Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:16:54.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:17:00.092Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:17:00.111Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:17:10.011Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:17:10.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:17:14.231Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:17:14.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:17:49.259Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:17:49.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:21:16.313Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:21:16.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:21:29.114Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:21:29.135Z"}
+error: uncaughtException: Note is not defined
+ReferenceError: Note is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:44:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:43:26)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Jan 30 2024 11:51:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1172920.64},"process":{"argv":["node","D:\\project1_googleapi\\src\\index.js"],"cwd":"D:\\project1_googleapi","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18263281,"external":21340323,"heapTotal":90664960,"heapUsed":51852296,"rss":126824448},"pid":13400,"uid":null,"version":"v20.11.0"},"stack":"ReferenceError: Note is not defined\n    at _callee3$ (D:\\project1_googleapi\\src\\controllers\\/note.controller.js:44:27)\n    at tryCatch (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at deleteNote (D:\\project1_googleapi\\src\\controllers\\/note.controller.js:43:26)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\project1_googleapi\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\project1_googleapi\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage.emit (node:domain:488:12)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-01-30T06:21:37.047Z","trace":[{"column":27,"file":"D:\\project1_googleapi\\src\\controllers\\/note.controller.js","function":"_callee3$","line":44,"method":null,"native":false},{"column":16,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":26,"file":"D:\\project1_googleapi\\src\\controllers\\/note.controller.js","function":"deleteNote","line":43,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":518,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":488,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:22:07.767Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:22:07.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:29:04.429Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:29:04.457Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:29:17.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:30:25.701Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:30:25.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:30:36.911Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:30:36.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:30:39.805Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:30:39.832Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:30:46.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:31:32.236Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:31:32.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:31:56.983Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:31:57.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:32:18.431Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:32:18.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:32:28.517Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:32:28.538Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:32:36.407Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:34:17.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:36:15.881Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:36:15.898Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:39:35.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:40:01.182Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:40:01.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:40:24.579Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:40:24.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:40:30.377Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:40:30.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:40:32.589Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:40:32.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:42:39.426Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:42:39.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:42:42.178Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:42:42.198Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:43:02.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:43:28.544Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:43:28.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:43:30.359Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:43:30.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:43:50.802Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:43:50.824Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:43:56.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:46:25.573Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:46:25.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:49:12.772Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:49:12.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:49:24.308Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:49:24.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:49:30.905Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:49:30.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:49:34.069Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:49:34.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:49:36.435Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:49:36.454Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:49:46.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:50:15.341Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:50:15.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:52:39.551Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:52:39.571Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:52:50.868Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:52:58.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:53:05.588Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:53:05.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:59:36.716Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:59:36.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:59:40.035Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:59:40.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:59:42.334Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:59:42.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:59:48.167Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:59:48.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T06:59:51.651Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T06:59:51.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:00:22.249Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:00:22.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:00:36.001Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:00:36.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:02:07.893Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:02:07.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:06:54.648Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:06:54.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:06:58.268Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:06:58.284Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:09:42.071Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:09:42.099Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" length must be at least 4 characters long 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T07:10:19.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:11:27.783Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:11:27.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:12:11.048Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:12:11.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:12:16.890Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:12:16.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:12:22.874Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:12:22.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:12:35.333Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:12:35.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T07:12:47.392Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T07:12:47.412Z"}
+error: 
+    status - 500 
+    message - Error: Note Not Found
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:34:12)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T07:12:51.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:16:02.971Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:16:03.008Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:16:20.324Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:16:20.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:16:24.260Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:16:24.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:16:43.832Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:16:43.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:17:06.856Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:17:06.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:17:14.020Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:17:14.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:32:43.526Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:32:43.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T08:32:46.163Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T08:32:46.177Z"}

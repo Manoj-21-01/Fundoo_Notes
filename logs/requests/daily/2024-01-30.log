@@ -38,3 +38,155 @@ info: ::1 - - [30/Jan/2024:04:57:55 +0000] "POST /api/v1/note/login HTTP/1.1" 20
 
 info: ::1 - - [30/Jan/2024:04:58:01 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [30/Jan/2024:05:12:35 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:12:40 +0000] "POST /api/v1/note HTTP/1.1" 201 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:12:45 +0000] "POST /api/v1/note HTTP/1.1" 201 262 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:12:50 +0000] "POST /api/v1/note/login HTTP/1.1" 200 253 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:46:01 +0000] "POST /api/v1/note HTTP/1.1" 201 262 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:46:13 +0000] "POST /api/v1/note HTTP/1.1" 201 267 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:46:21 +0000] "POST /api/v1/note/login HTTP/1.1" 200 258 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:46:38 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:58:57 +0000] "DELETE /api/v1/note HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:59:13 +0000] "POST /api/v1/note/login HTTP/1.1" 200 258 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:59:47 +0000] "DELETE /api/v1/note/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:05:59:53 +0000] "DELETE /api/v1/note HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:00:44 +0000] "DELETE /api/v1/note/firstjjnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:01:43 +0000] "DELETE /api/v1/note HTTP/1.1" 200 49 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:01:55 +0000] "POST /api/v1/note/login HTTP/1.1" 200 258 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:02:09 +0000] "DELETE /api/v1/note HTTP/1.1" 200 49 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:03:13 +0000] "DELETE /api/v1/note HTTP/1.1" 500 65 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:06:25 +0000] "DELETE /api/v1/note/firstjjnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:06:31 +0000] "DELETE /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:06:35 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:07:19 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:07:28 +0000] "DELETE /api/v1/note/firstjjnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:07:43 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:07:44 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:08:04 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:08:14 +0000] "DELETE /api/v1/note HTTP/1.1" 500 54 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:08:53 +0000] "DELETE /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:09:12 +0000] "DELETE /api/v1/note HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:12:06 +0000] "DELETE /api/v1/note HTTP/1.1" 500 89 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:15:35 +0000] "DELETE /api/v1/note HTTP/1.1" 404 51 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:15:58 +0000] "POST /api/v1/note HTTP/1.1" 201 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:16:05 +0000] "DELETE /api/v1/note HTTP/1.1" 404 51 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:16:20 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:17:29 +0000] "DELETE /api/v1/note HTTP/1.1" 404 51 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:29:17 +0000] "DELETE /api/v1/note HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:30:46 +0000] "DELETE /api/v1/note HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:32:31 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:32:36 +0000] "DELETE /api/v1/note/delete HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:34:17 +0000] "DELETE /api/v1/note/delete HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:39:23 +0000] "DELETE /api/v1/note/delete_note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:39:30 +0000] "DELETE /api/v1/note/_note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:39:35 +0000] "DELETE /api/v1/note/delete HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:41:36 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:41:46 +0000] "POST /api/v1/note/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:42:45 +0000] "POST /api/v1/note/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:42:57 +0000] "DELETE /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:43:02 +0000] "DELETE /api/v1/note/delete HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:43:50 +0000] "DELETE /api/v1/note/delete HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:43:56 +0000] "DELETE /api/v1/note HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:49:46 +0000] "DELETE /api/v1/note/_id HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:52:50 +0000] "DELETE /api/v1/note/:id HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:52:58 +0000] "DELETE /api/v1/note/_id HTTP/1.1" 500 139 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:55:06 +0000] "POST /api/v1/note/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:06:55:27 +0000] "DELETE /api/v1/note/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:00:41 +0000] "DELETE /api/v1/note/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:01:01 +0000] "DELETE /api/v1/note/noteId/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:02:12 +0000] "DELETE /api/v1/note/noteId/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:02:24 +0000] "DELETE /api/v1/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:05:22 +0000] "DELETE /api/v1/note/note/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:07:45 +0000] "DELETE /api/v1/note/note/65b89d4a6aa43813dcac1c54 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:07:49 +0000] "DELETE /api/v1/note/note/65b89d4a6aa43813dcac1c54 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:07:55 +0000] "DELETE /api/v1/note/noteId/65b89d4a6aa43813dcac1c54 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:08:19 +0000] "POST /api/v1/note/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:09:45 +0000] "POST /api/v1/note/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:10:19 +0000] "POST /api/v1/note/ HTTP/1.1" 500 92 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:10:24 +0000] "POST /api/v1/note/ HTTP/1.1" 201 217 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:10:31 +0000] "POST /api/v1/note/login HTTP/1.1" 200 208 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:10:47 +0000] "DELETE /api/v1/note/note/65b8a0e03f49990a4c7dffdb HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:10:56 +0000] "POST /api/v1/note/login HTTP/1.1" 200 53 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:12:51 +0000] "POST /api/v1/note/login HTTP/1.1" 500 49 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:19:27 +0000] "DELETE /api/v1/note/noteId/65b8a0638cca055ef832b83f HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:19:33 +0000] "DELETE /api/v1/note/note/65b8a0638cca055ef832b83f HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:07:19:35 +0000] "DELETE /api/v1/note/note/65b8a0638cca055ef832b83f HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:08:17:37 +0000] "POST /api/v1/note/ HTTP/1.1" 201 216 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:08:17:54 +0000] "PUT /api/v1/note/note/65b8b0a1c3a04565e0bd3a28 HTTP/1.1" 200 219 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:08:18:04 +0000] "POST /api/v1/note/login HTTP/1.1" 200 213 "-" "PostmanRuntime/7.36.1"
+

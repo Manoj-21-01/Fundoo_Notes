@@ -876,3 +876,290 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-01-30T04:57:38.343Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (D:\project1_googleapi\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (D:\project1_googleapi\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project1_googleapi\node_modules\express\lib\response.js:278:15)
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:46:35)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:03:13.050Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Note is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:46:5)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:43:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:08:14.828Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'remove')
+    at exports.deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:45:14)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:12:06.186Z"}
+error: uncaughtException: Note is not defined
+ReferenceError: Note is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:44:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteNote (D:\project1_googleapi\src\controllers\/note.controller.js:43:26)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Jan 30 2024 11:51:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1172920.64},"process":{"argv":["node","D:\\project1_googleapi\\src\\index.js"],"cwd":"D:\\project1_googleapi","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18263281,"external":21340323,"heapTotal":90664960,"heapUsed":51852296,"rss":126824448},"pid":13400,"uid":null,"version":"v20.11.0"},"stack":"ReferenceError: Note is not defined\n    at _callee3$ (D:\\project1_googleapi\\src\\controllers\\/note.controller.js:44:27)\n    at tryCatch (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at deleteNote (D:\\project1_googleapi\\src\\controllers\\/note.controller.js:43:26)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\project1_googleapi\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\project1_googleapi\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\project1_googleapi\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage.emit (node:domain:488:12)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-01-30T06:21:37.047Z","trace":[{"column":27,"file":"D:\\project1_googleapi\\src\\controllers\\/note.controller.js","function":"_callee3$","line":44,"method":null,"native":false},{"column":16,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":26,"file":"D:\\project1_googleapi\\src\\controllers\\/note.controller.js","function":"deleteNote","line":43,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\project1_googleapi\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\project1_googleapi\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":518,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":488,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:29:17.912Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:30:46.969Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:32:36.407Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:34:17.813Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:39:35.803Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:43:02.341Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:43:56.235Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:49:46.332Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:52:50.868Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ title: 'note' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-30T06:52:58.659Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" length must be at least 4 characters long 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T07:10:19.246Z"}
+error: 
+    status - 500 
+    message - Error: Note Not Found
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:34:12)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T07:12:51.670Z"}
