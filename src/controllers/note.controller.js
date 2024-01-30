@@ -22,14 +22,41 @@ export const newNote = async (req, res, next) => {
  */
 export const loginNote = async (req, res, next) => {
   try {
-    const data = await NoteService.newNote(req.body);
+    const data = await NoteService.loginNote(req.body);
     // If login is successful, you may choose to return a token or other note information
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Login successful'
+    if (data){
+        res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Login successful'
     });
+}
+else{throw new Error("Note Not Found")}
   } catch (error) {
     next (error)
     };
   };
+
+  /**
+ * Controller to delete a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+  
+export const deleteNote = async (req, res, next) => {
+    try {
+      const noteId = req.params.noteId;
+      const data = await NoteService.deleteNoteById(noteId);
+  
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note delete successfull',
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+  
+  
