@@ -8,11 +8,13 @@ const router = express.Router();
 //route to create a new note
 router.post('', newNoteValidator, noteController.newNote);
 
-router.post('/login', noteController.loginNote);
+router.get('',noteController.getNote);
+
+router.post('', noteController.loginNote);
 
 //route to delete a note
-router.delete('/note/:noteId', noteController.deleteNote);
+router.delete('/:noteId', noteController.deleteNote);
 
 //route to update a note
-router.put('/note/:noteId', noteController.updateNote);
+router.put('/:noteId', noteController.updateNote);
 export default router;

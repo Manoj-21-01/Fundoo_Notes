@@ -8,11 +8,11 @@ export const newNote = async (body) => {
     return data;
   };
 
-// login
-export const loginNote = async (body) => {
+// getNote
+export const getNote = async (body) => {
   // Finding the note with the given email
-  const note = await Note.findOne({ title: body.title  });
-  return note;
+  const data = await Note.findOne({ title: body.title  });
+  return data;
 };
 
 //delete note

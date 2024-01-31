@@ -14,6 +14,25 @@ export const newNote = async (req, res, next) => {
   }
 };
 
+// /**
+//  * Controller to get a single user
+//  * @param  {object} req - request object
+//  * @param {object} res - response object
+//  * @param {Function} next
+//  */
+export const getNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.getNote(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Note fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
 /**
  * Controller to handle note login
  * @param  {object} req - request object
