@@ -1,0 +1,224 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:04:18.841Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:04:18.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:07:44.621Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:07:44.652Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:17:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T10:09:29.310Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:17:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T10:09:36.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:11:08.806Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:11:08.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:11:18.442Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:11:18.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:11:27.066Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:11:27.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:15:13.526Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:15:13.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:15:49.428Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:15:49.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:16:12.862Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:16:12.883Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T10:16:45.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:17:58.187Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:17:58.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:18:03.622Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:18:03.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:18:36.408Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:18:36.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:19:04.524Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:19:04.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:23:36.106Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:23:36.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:27:34.352Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:27:34.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:27:50.648Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:27:50.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:29:08.477Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:29:08.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:29:19.396Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:29:19.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:29:54.872Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:29:54.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:30:05.839Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:30:05.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:30:30.446Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:30:30.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:30:33.023Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:30:33.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:32:30.793Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:32:30.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:32:35.973Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:32:35.999Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:19:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T10:33:50.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:45:48.792Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:45:48.807Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got 65b8d2bd15098d1380c35c89
+    at model.Query.Query.findOne (D:\project1_googleapi\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (D:\project1_googleapi\node_modules\mongoose\lib\model.js:2275:13)
+    at _callee6$ (D:\project1_googleapi\src\services\/user.service.js:81:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getUser (D:\project1_googleapi\src\services\/user.service.js:80:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/user.controller.js:31:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getUser (D:\project1_googleapi\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:24:5)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/profile/65b8d2bd15098d1380c35c89 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T10:45:50.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:46:46.886Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:46:46.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:47:01.515Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:47:01.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:47:06.361Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:47:06.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:47:12.020Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:47:12.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:48:29.143Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:48:29.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:51:51.349Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:51:51.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:51:54.616Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:51:54.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T10:52:04.192Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T10:52:04.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:00:21.682Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:00:21.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:01:50.143Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:01:50.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:02:18.265Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:02:18.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:02:40.464Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:02:40.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:04:10.927Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:04:10.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:04:31.498Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:04:31.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:06:24.913Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:06:24.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:08:35.308Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:08:35.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:08:44.587Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:08:44.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:15:42.005Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:15:42.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:16:05.525Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:16:05.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:16:10.228Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:16:10.250Z"}
