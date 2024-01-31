@@ -680,3 +680,25 @@ info: ::1 - - [31/Jan/2024:06:32:48 +0000] "PUT /api/v1/note/65b9e96a6fa36921904
 
 info: ::1 - - [31/Jan/2024:06:33:05 +0000] "DELETE /api/v1/note/65b9e96a6fa369219040db31 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [31/Jan/2024:06:51:53 +0000] "GET /api/v1/note HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:54:23 +0000] "GET /api/v1/note HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:55:12 +0000] "GET /api/v1/note HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:56:56 +0000] "GET /api/v1/note HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:57:27 +0000] "GET /api/v1/note HTTP/1.1" 200 5701 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:57:41 +0000] "GET /api/v1/note/65b79cd7c27b73307ce4899d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:06:58:37 +0000] "GET /api/v1/note/65b79cd7c27b73307ce4899d HTTP/1.1" 200 62 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:07:00:41 +0000] "GET /api/v1/note/65b79cd7c27b73307ce4899d HTTP/1.1" 200 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:07:00:49 +0000] "GET /api/v1/note/ HTTP/1.1" 200 5701 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:07:00:59 +0000] "GET /api/v1/note/65b881d30417622978c3a375 HTTP/1.1" 200 260 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [31/Jan/2024:07:01:33 +0000] "GET /api/v1/note/ HTTP/1.1" 200 5701 "-" "PostmanRuntime/7.36.1"
+

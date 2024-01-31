@@ -34,6 +34,24 @@ export const getNote = async (req, res, next) => {
 };
 
 /**
+ * Controller to get all notes available
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getAllNotes = async (req, res, next) => {
+  try {
+    const data = await NoteService.getAllNotes();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'All Notes fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+/**
  * Controller to handle note login
  * @param  {object} req - request object
  * @param {object} res - response object

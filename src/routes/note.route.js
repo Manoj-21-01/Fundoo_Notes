@@ -8,7 +8,9 @@ const router = express.Router();
 //route to create a new note
 router.post('', newNoteValidator, noteController.newNote);
 
-router.get('',noteController.getNote);
+router.get('',noteController.getAllNotes);
+
+router.get('/:noteId',noteController.getNote);
 
 router.post('', noteController.loginNote);
 
