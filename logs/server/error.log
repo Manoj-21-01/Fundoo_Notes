@@ -424,6 +424,7 @@ error:
    {"timestamp":"2024-01-28T19:22:06.002Z"}
 error: 
     status - 500 
+<<<<<<< HEAD
     message - Error: User with the same email already exists
     at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:17:11)
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
@@ -501,10 +502,13 @@ error:
    {"timestamp":"2024-01-29T11:34:02.795Z"}
 error: 
     status - 500 
+=======
+>>>>>>> auth
     message - ValidationError: "firstName" is required 
     url - /api/v1/user/registration 
     method - POST 
     IP - ::1
+<<<<<<< HEAD
    {"timestamp":"2024-01-29T12:17:41.104Z"}
 error: 
     status - 500 
@@ -555,6 +559,16 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.newNote (D:\project1_googleapi\src\services\/note.service.js:34:2)
     at _callee$ (D:\project1_googleapi\src\controllers\/note.controller.js:6:36)
+=======
+   {"timestamp":"2024-01-31T07:12:59.359Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -563,6 +577,7 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at newNote (D:\project1_googleapi\src\controllers\/note.controller.js:4:21)
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
@@ -809,6 +824,9 @@ error:
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at newNoteValidator (D:\project1_googleapi\src\validators\/note.validator.js:13:5)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -845,6 +863,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - POST 
     IP - ::1
@@ -1230,6 +1249,19 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
     at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:15:53.620Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1238,7 +1270,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1275,6 +1311,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1293,6 +1330,19 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
     at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:16:50.483Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1301,7 +1351,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1338,6 +1392,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1356,6 +1411,17 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
     at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:16:58.508Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1364,7 +1430,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1401,6 +1471,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1419,6 +1490,19 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
     at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:17:09.350Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1427,7 +1511,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1464,6 +1552,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1482,6 +1571,19 @@ error:
     at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
     at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:17:22.906Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1490,7 +1592,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1527,6 +1633,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1535,6 +1642,19 @@ error:
     status - 500 
     message - ReferenceError: UserService is not defined
     at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:42:49)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:17:33.344Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1543,7 +1663,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:42:25)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1580,6 +1704,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1588,6 +1713,19 @@ error:
     status - 500 
     message - ReferenceError: UserService is not defined
     at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:42:49)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:49:16.026Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1596,7 +1734,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:42:25)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1633,6 +1775,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1641,6 +1784,19 @@ error:
     status - 500 
     message - ReferenceError: UserService is not defined
     at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:42:49)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:49:53.901Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1649,7 +1805,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:42:25)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1686,6 +1846,7 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
@@ -1694,6 +1855,19 @@ error:
     status - 500 
     message - ReferenceError: UserService is not defined
     at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:42:49)
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:50:01.068Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+>>>>>>> auth
     at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
     at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
     at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
@@ -1702,7 +1876,11 @@ error:
     at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+<<<<<<< HEAD
     at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:42:25)
+=======
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+>>>>>>> auth
     at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
     at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
@@ -1739,7 +1917,101 @@ error:
     at IncomingMessage.emit (node:domain:488:12)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+<<<<<<< HEAD
     url - /api/v1/note 
     method - GET 
     IP - ::1
    {"timestamp":"2024-01-31T06:56:56.300Z"}
+=======
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:51:18.967Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:53:31.661Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:23:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:53:40.977Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:32)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T07:54:53.871Z"}
+>>>>>>> auth

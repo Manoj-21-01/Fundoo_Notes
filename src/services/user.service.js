@@ -47,10 +47,10 @@ export const loginUser = async (body) => {
     var token = jwt.sign({ emailid: 'naniguy1@gmail.com' }, 'shhhhh');
     return token;
   }
-  else {throw new Error ('Invalid password')};
-}
-else {throw new Error ('Invalid emailid')};
+  const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '4h' });
 
+  return { user, token };
+  }
 };
 
 // //update single user

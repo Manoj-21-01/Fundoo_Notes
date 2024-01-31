@@ -31,7 +31,7 @@ export const getUser = async (req, res, next) => {
     const data = await UserService.getUser(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      //data: data,
       message: 'User fetched successfully'
     });
   } catch (error) {
