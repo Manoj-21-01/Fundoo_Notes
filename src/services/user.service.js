@@ -49,7 +49,7 @@ export const loginUser = async (emailid, password) => {
     // Throw an error if the password doesn't match
     throw new Error('Invalid password');
   }
-  const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '1h' });
+  const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '4h' });
 
   return { user, token };
 
