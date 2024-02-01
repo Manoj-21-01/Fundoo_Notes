@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
       "version": "V1",
-      "title": "F App",
+      "title": "Fundoo_Notes App",
       "description": "CLI App API"
     },
     "host": "localhost:3000",
@@ -52,7 +52,7 @@
       },
       "/user/registration": {
         "post": {
-            "tags": ["Signin"],
+            "tags": ["Signin_Users"],
             "description": "register user...",
             "parameters": [
                 {
@@ -76,7 +76,7 @@
       },
       "/user/login": {
         "post": {
-          "tags": ["Signin"],
+          "tags": ["Signin_Users"],
           "description": "login name...",
           "parameters": [
             {
@@ -97,6 +97,36 @@
             },
             "500": {
               "description": "Internal server error"
+            },
+            "200": {
+              "description": "Login successful"
+            }
+          }
+        }
+      },
+      "/note": {
+        "post": {
+          "tags": ["Notes"],
+          "description": "create a note...",
+          "parameters": [
+            {
+              "name": "create note",
+              "in": "body",
+              "description": "register",
+              "schema": {
+                "$ref": "#/definitions/Note"
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "responses": {
+            "201": {
+              "description": "Note created successfully"
             }
           }
         }
@@ -130,7 +160,18 @@
             "type": "string"
           }
         }
-      }
+      },
+      "Note": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+            }
+          }
+        }
     },
     "securityDefinitions": {
       "JWT": {
