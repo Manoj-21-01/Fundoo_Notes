@@ -72,7 +72,7 @@ export const loginUser = async (req, res, next) => {
     // If login is successful, you may choose to return a token or other user information
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      token: data,
+      data: data,
       message: 'Login successful'
     });
   } catch (error) {

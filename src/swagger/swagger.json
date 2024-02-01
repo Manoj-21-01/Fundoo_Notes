@@ -50,9 +50,33 @@
           }
         }
       },
-      "/login": {
+      "/user/registration": {
         "post": {
-          "tags": ["CLI"],
+            "tags": ["Signin"],
+            "description": "register user...",
+            "parameters": [
+                {
+                    "name": "register user",
+                    "in": "body",
+                    "description": "register",
+                    "schema": {
+                        "$ref": "#/definitions/User"
+                    }
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "201": {
+                    "description": "User created successfully"
+                }
+            }
+        }
+      },
+      "/user/login": {
+        "post": {
+          "tags": ["Signin"],
           "description": "login name...",
           "parameters": [
             {
@@ -82,13 +106,13 @@
       "User": {
         "type": "object",
         "properties": {
-          "fname": {
+          "firstName": {
             "type": "string"
           },
-          "lname": {
+          "lastName": {
             "type": "string"
           },
-          "email": {
+          "emailid": {
             "type": "string"
           },
           "password": {
@@ -99,7 +123,7 @@
       "loging": {
         "type": "object",
         "properties": {
-          "email": {
+          "emailid": {
             "type": "string"
           },
           "password": {

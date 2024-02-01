@@ -22,19 +22,16 @@ export const newNote = async (req, res, next) => {
 //  */
 export const getNote = async (req, res, next) => {
   try {
-    console.log("Request Parameters:", req.params._id);
-
-    const data = await NoteService.getNote(req.params._id);
-
-    console.log("Fetched Data:", data);
-
+    const data = await NoteService.get1Note(req.body)
+    if(data){
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'Note fetched successfully'
+      message: 'login successfully'
     });
+  }
+  else throw new Error("Note not found");
   } catch (error) {
-    console.error("Error:", error);
     next(error);
   }
 };
@@ -48,7 +45,7 @@ export const getNote = async (req, res, next) => {
  */
 export const getAllNotes = async (req, res, next) => {
   try {
-    const data = await Service.getAllNotes();
+    const data = await NoteService.getAllNotes();
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -58,12 +55,7 @@ export const getAllNotes = async (req, res, next) => {
     next(error);
   }
 };
-/**
- * Controller to handle note login
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+
 export const loginNote = async (req, res, next) => {
   try {
     const data = await NoteService.loginNote(req.body);
@@ -72,7 +64,7 @@ export const loginNote = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Login successful'
+        message: 'Login successfullllll'
     });
 }
 else{throw new Error("Note Not Found")}

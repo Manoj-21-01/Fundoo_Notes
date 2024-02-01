@@ -3,6 +3,7 @@ const router = express.Router();
 
 import userRoute from './user.route';
 import noteRoute from './note.route';
+import { userAuth } from '../middlewares/auth.middleware';
 /**
  * Function contains Application routes
  *
@@ -13,7 +14,7 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/user', userRoute);
-  router.use('/note', noteRoute);
+  router.use('/note',userAuth, noteRoute);
   return router;
 };
 

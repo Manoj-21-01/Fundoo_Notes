@@ -44,11 +44,15 @@ export const loginUser = async (body) => {
   // Comparing the entered password with the hashed password in the database
   const passwordMatch = await bcrypt.compare(body.password, user.password);
   if (passwordMatch) {
-    const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '1h' });
-    return token;
+    const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '3h' });
+    return { user, token };
   }
-  return { user, token };
+  else{
+    throw new Error("Invalid Password");
   }
+
+  }
+  throw new Error("Invalid Email id");
 };
 
 // //update single user

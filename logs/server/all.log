@@ -5002,3 +5002,461 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T0
 info: Connected to the database. {"timestamp":"2024-02-01T04:47:15.493Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T04:54:26.519Z"}
 info: Connected to the database. {"timestamp":"2024-02-01T04:54:26.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:26:18.885Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:26:18.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:34:52.374Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:34:52.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:34:55.384Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:34:55.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:35:18.670Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:35:18.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:35:38.880Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:35:38.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:42:41.888Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:42:41.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:43:05.167Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:43:05.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:43:08.547Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:43:08.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:45:31.095Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:45:31.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T05:47:27.255Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T05:47:27.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:03:04.931Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:03:04.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:04:14.282Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:04:14.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:04:29.135Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:04:29.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:04:32.354Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:04:32.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:04:35.917Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:04:35.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:04:42.705Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:04:42.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:05:19.598Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:05:19.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:07:52.576Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:07:52.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:08:09.860Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:08:09.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:09:32.360Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:09:32.380Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailid" length must be at least 8 characters long 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:09:51.730Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/user/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:10:03.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:11:52.151Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:11:52.168Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:101:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:13:59.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:14:27.275Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:14:27.296Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:101:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:14:29.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:14:58.103Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:14:58.124Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUser is not a function
+    at _callee2$ (D:\project1_googleapi\src\controllers\/user.controller.js:31:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getUser (D:\project1_googleapi\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:15:42.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:16:21.637Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:16:21.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:20:18.410Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:20:18.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:20:31.351Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:20:31.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:24:21.395Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:24:21.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:24:32.082Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:24:32.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:26:02.298Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:26:02.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:26:05.415Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:26:05.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:26:08.382Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:26:08.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:26:11.146Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:26:11.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:26:41.057Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:26:41.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:27:56.024Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:27:56.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:28:25.305Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:28:25.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:28:31.619Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:28:31.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:29:03.087Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:29:03.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:29:09.388Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:29:09.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:29:15.486Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:29:15.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:29:31.511Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:29:31.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:29:35.165Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:29:35.179Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Service is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:49:49)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:49:25)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:33:49.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:35:08.896Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:35:08.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:35:11.552Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:35:11.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:36:34.838Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:36:34.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:36:38.521Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:36:38.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:37:47.847Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:37:47.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:18.553Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:18.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:22.748Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:22.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:31.204Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:31.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:49.461Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:49.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:54.200Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:54.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:39:59.851Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:39:59.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:42:03.207Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:42:03.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:43:08.572Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:43:08.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:43:52.828Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:43:52.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:43:58.526Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:43:58.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:44:24.596Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:44:24.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:45:38.600Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:45:38.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:47:40.208Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:47:40.230Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:47:44.999Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:47:45.018Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/login/65bb3b41f503215270deaa12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:47:45.877Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/login/65bb3b41f503215270deaa12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:47:48.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:49:16.941Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:49:16.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:50:29.193Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:50:29.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:50:33.061Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:50:33.075Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/login/65bb3b41f503215270deaa12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:50:36.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:50:44.750Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:50:44.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:50:49.113Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:50:49.129Z"}
+error: uncaughtException: usenoteRoute is not defined
+ReferenceError: usenoteRoute is not defined
+    at routes (D:\project1_googleapi\src\routes\/index.js:16:23)
+    at Object.<anonymous> (D:\project1_googleapi\src\/index.js:37:38)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (D:\project1_googleapi\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.newLoader [as .js] (D:\project1_googleapi\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.runMain (node:internal/modules/run_main:135:12)
+    at Object.<anonymous> (D:\project1_googleapi\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Thu Feb 01 2024 12:21:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1347484.843},"process":{"argv":["node","D:\\project1_googleapi\\src\\index.js"],"cwd":"D:\\project1_googleapi","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270591,"external":21344840,"heapTotal":88596480,"heapUsed":53532760,"rss":126877696},"pid":8280,"uid":null,"version":"v20.11.0"},"stack":"ReferenceError: usenoteRoute is not defined\n    at routes (D:\\project1_googleapi\\src\\routes\\/index.js:16:23)\n    at Object.<anonymous> (D:\\project1_googleapi\\src\\/index.js:37:38)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\project1_googleapi\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\project1_googleapi\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\project1_googleapi\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-02-01T06:51:01.255Z","trace":[{"column":23,"file":"D:\\project1_googleapi\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"D:\\project1_googleapi\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\project1_googleapi\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\project1_googleapi\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\project1_googleapi\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:13.950Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:13.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:17.425Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:17.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:43.225Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:43.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:50.705Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:50.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:52.825Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:52.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:51:58.944Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:51:58.958Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/65bb3b41f503215270deaa12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T06:52:06.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:52:35.223Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:52:35.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:53:04.043Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:53:04.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:53:14.850Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:53:14.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:54:09.475Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:54:09.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:55:30.363Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:55:30.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:55:32.749Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:55:32.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:55:51.560Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:55:51.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:55:57.098Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:55:57.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:56:12.430Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:56:12.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:56:28.238Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:56:28.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:56:37.925Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:56:37.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:57:20.247Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:57:20.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-01T06:57:23.120Z"}
+info: Connected to the database. {"timestamp":"2024-02-01T06:57:23.135Z"}
