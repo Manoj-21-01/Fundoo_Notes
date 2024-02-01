@@ -31,7 +31,7 @@ export const getUser = async (req, res, next) => {
     const data = await UserService.getUser(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      //data: data,
+      data: data,
       message: 'User fetched successfully'
     });
   } catch (error) {
@@ -52,6 +52,7 @@ export const newUser = async (req, res, next) => {
     const data = await UserService.newUser(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
+      data: data,
       message: 'User created successfully'
     });
   } catch (error) {
@@ -71,7 +72,7 @@ export const loginUser = async (req, res, next) => {
     // If login is successful, you may choose to return a token or other user information
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      token: data,
       message: 'Login successful'
     });
   } catch (error) {

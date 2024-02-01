@@ -10,7 +10,7 @@ router.post('', newNoteValidator, noteController.newNote);
 
 router.get('',noteController.getAllNotes);
 
-router.get('/:noteId',noteController.getNote);
+router.get('/:_id',noteController.getNote);
 
 router.post('', noteController.loginNote);
 

@@ -2015,3 +2015,2181 @@ error:
     IP - ::1
    {"timestamp":"2024-01-31T07:54:53.871Z"}
 >>>>>>> auth
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:32)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:37:47.379Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:43:17.474Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:43:41.522Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:50:21.186Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:52:19.364Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:59:13.654Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T11:59:15.351Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:03:28.820Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:05:01.456Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:31)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:06:58.631Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:08:17.912Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:34)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:08:31.279Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:09:16.763Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/user/profile 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-31T12:10:16.801Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:10:21.418Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:13:24.736Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:14:00.684Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:14:20.869Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:30)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:15:03.801Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:17:51.416Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:14:46)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/note/65ba26b4434550201831b166 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:23:07.347Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:14:46)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/note/65ba26b4434550201831b166 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:23:11.329Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:14:46)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/note/65ba26b4434550201831b166 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:23:21.433Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:14:46)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/note/65ba26b4434550201831b166 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:24:13.130Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee2$ (D:\project1_googleapi\src\services\/note.service.js:14:46)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\project1_googleapi\src\services\/note.service.js:12:21)
+    at _callee2$ (D:\project1_googleapi\src\controllers\/note.controller.js:25:36)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\project1_googleapi\src\controllers\/note.controller.js:23:21)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12) 
+    url - /api/v1/note/65ba26b4434550201831b166 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-31T12:24:14.365Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:03:27.918Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:04:03.995Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:04:59.196Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:05:38.035Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:06:48.518Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:08:40.626Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:08:54.212Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:08:59.303Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:09:08.389Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/user/profile 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-02-01T04:09:36.071Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:09:40.203Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Service is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:49:49)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:49:25)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:10:12.623Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Service is not defined
+    at _callee3$ (D:\project1_googleapi\src\controllers\/note.controller.js:49:49)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllNotes (D:\project1_googleapi\src\controllers\/note.controller.js:49:25)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:10:16.859Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:10:25.807Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:15:21.143Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\project1_googleapi\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\project1_googleapi\src\middlewares\/auth.middleware.js:21:27)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\project1_googleapi\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at D:\project1_googleapi\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project1_googleapi\node_modules\raw-body\index.js:231:16)
+    at done (D:\project1_googleapi\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project1_googleapi\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/profile 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-02-01T04:15:40.850Z"}

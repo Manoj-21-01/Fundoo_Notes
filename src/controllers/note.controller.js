@@ -22,16 +22,23 @@ export const newNote = async (req, res, next) => {
 //  */
 export const getNote = async (req, res, next) => {
   try {
-    const data = await NoteService.getNote(req.body);
+    console.log("Request Parameters:", req.params._id);
+
+    const data = await NoteService.getNote(req.params._id);
+
+    console.log("Fetched Data:", data);
+
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
       message: 'Note fetched successfully'
     });
   } catch (error) {
+    console.error("Error:", error);
     next(error);
   }
 };
+
 
 /**
  * Controller to get all notes available
@@ -41,7 +48,7 @@ export const getNote = async (req, res, next) => {
  */
 export const getAllNotes = async (req, res, next) => {
   try {
-    const data = await NoteService.getAllNotes();
+    const data = await Service.getAllNotes();
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

@@ -44,11 +44,9 @@ export const loginUser = async (body) => {
   // Comparing the entered password with the hashed password in the database
   const passwordMatch = await bcrypt.compare(body.password, user.password);
   if (passwordMatch) {
-    var token = jwt.sign({ emailid: 'naniguy1@gmail.com' }, 'shhhhh');
+    const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '1h' });
     return token;
   }
-  const token = jwt.sign({ user: { id: user._id } }, process.env.JWT_SECRET, { expiresIn: '4h' });
-
   return { user, token };
   }
 };
