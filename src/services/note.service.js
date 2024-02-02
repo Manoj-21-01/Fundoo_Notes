@@ -9,9 +9,8 @@ export const newNote = async (body) => {
   };
 
 // getNote
-export const get1Note = async (s) => {
-  // Finding the note with the given email
-  const data = await Note.findOne({ id:s.id  });
+export const getNote = async (id) => {
+  const data = await Note.findById(id);
   return data;
 };
 

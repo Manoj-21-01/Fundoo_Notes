@@ -7,12 +7,6 @@
     },
     "host": "localhost:3000",
     "basePath": "/api/v1/",
-    "tags": [
-      {
-        "name": "CLI",
-        "description": "Creating user......."
-      }
-    ],
     "schemes": [
       "http"
     ],
@@ -23,33 +17,6 @@
       "application/json"
     ],
     "paths": {
-      "/user": {
-        "post": {
-          "tags": ["CLI"],
-          "description": "create name...",
-          "parameters": [
-            {
-              "name": "Create name",
-              "in": "body",
-              "description": "Create",
-              "schema": {
-                "$ref": "#/definitions/User"
-              }
-            }
-          ],
-          "produces": [
-            "application/json"
-          ],
-          "responses": {
-            "201": {
-              "description": "New user is created"
-            },
-            "500": {
-              "description": "Internal server error"
-            }
-          }
-        }
-      },
       "/user/registration": {
         "post": {
             "tags": ["Users"],
@@ -70,30 +37,6 @@
             "responses": {
                 "201": {
                     "description": "User created successfully"
-                }
-            }
-        }
-      },
-      "/user/:_id": {
-        "put": {
-            "tags": ["Users"],
-            "description": "update user...",
-            "parameters": [
-                {
-                    "name": "update user",
-                    "in": "path",
-                    "description": "update",
-                    "schema": {
-                        "$ref": "#/definitions/User"
-                    }
-                }
-            ],
-            "produces": [
-                "application/json"
-            ],
-            "responses": {
-                "201": {
-                    "description": "User updated successfully"
                 }
             }
         }
@@ -128,29 +71,6 @@
           }
         }
       },
-      "/user/delete/:_id": {
-        "delete": {
-            "tags": ["Users"],
-            "description": "delete user...",
-            "parameters": [
-                {
-                    "name": "id",
-                    "in": "path",
-                    "description": "delete",
-                    "required": true,
-                    "type": "string"
-                }
-            ],
-            "produces": [
-                "application/json"
-            ],
-            "responses": {
-                "201": {
-                    "description": "User deleted successfully"
-                }
-            }
-        }
-      },
       "/note": {
         "post": {
           "tags": ["Notes"],
@@ -179,7 +99,7 @@
           }
         }
       },
-      "/note/{:_id}": {
+      "/note/{id}": {
         "get": {
           "tags": ["Notes"],
           "description": "get note...",
@@ -188,9 +108,7 @@
               "name": "fetching note",
               "in": "path",
               "description": "register",
-              "schema": {
-                "$ref": "#/definitions/Note"
-              }
+              "require": true
             }
           ],
           "produces": [
@@ -206,15 +124,19 @@
           }
         }
       },
-      "/note/:_id": {
+      "/note/update/noteId": {
         "put": {
           "tags": ["Notes"],
           "description": "updating the note...",
           "parameters": [
             {
+              "name": "id",
+              "- in": "path",
+              "description": "id"
+            },
+            {
               "name": "update note",
-              "in": "path",
-              "description": "register",
+              "in": "body",
               "schema": {
                 "$ref": "#/definitions/Note"
               }
@@ -233,7 +155,7 @@
           }
         }
       },
-      "/note/delete/:_id": {
+      "/note/delete/{id}": {
         "delete": {
           "tags": ["Notes"],
           "description": "delete note...",

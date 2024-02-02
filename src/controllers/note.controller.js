@@ -22,19 +22,17 @@ export const newNote = async (req, res, next) => {
 //  */
 export const getNote = async (req, res, next) => {
   try {
-    const data = await NoteService.get1Note(req.body)
-    if(data){
+    const note = await NoteService.getNote(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
-      message: 'login successfully'
+      data: note,
+      message: 'Note fetched successfully'
     });
-  }
-  else throw new Error("Note not found");
   } catch (error) {
     next(error);
   }
 };
+
 
 
 /**
@@ -58,7 +56,7 @@ export const getAllNotes = async (req, res, next) => {
 
 export const loginNote = async (req, res, next) => {
   try {
-    const data = await NoteService.loginNote(req.body);
+    const data = await NoteService.loginNote(req.params._id);
     // If login is successful, you may choose to return a token or other note information
     if (data){
         res.status(HttpStatus.OK).json({
@@ -97,10 +95,9 @@ export const deleteNote = async (req, res, next) => {
   //controller to update a note
   export const updateNote = async (req, res, next) => {
     try {
-      const noteId = req.params.noteId;
-      const data = await NoteService.updateNote(noteId, req.body);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
+      const data = await NoteService.newNote(req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
         data: data,
         message: 'Note update successful',
       });

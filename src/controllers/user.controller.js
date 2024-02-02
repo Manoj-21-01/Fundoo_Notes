@@ -28,10 +28,10 @@ export const getAllUsers = async (req, res, next) => {
 //  */
 export const getUser = async (req, res, next) => {
   try {
-    const data = await UserService.getUser(req.params._id);
+    const user = await UserService.getUser(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      data: user,
       message: 'User fetched successfully'
     });
   } catch (error) {

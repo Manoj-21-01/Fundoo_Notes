@@ -75,8 +75,8 @@ export const deleteUser = async (id) => {
   return '';
 };
 
-// //get single user
-// export const getUser = async (id) => {
-//   const data = await User.findById(id);
-//   return data;
-// };
+//get single user
+export const getUser = async (id) => {
+  const data = await User.findById(id);
+  return data;
+};
