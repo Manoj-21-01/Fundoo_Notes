@@ -52,7 +52,7 @@
       },
       "/user/registration": {
         "post": {
-            "tags": ["Signin_Users"],
+            "tags": ["Users"],
             "description": "register user...",
             "parameters": [
                 {
@@ -74,9 +74,33 @@
             }
         }
       },
+      "/user/:_id": {
+        "put": {
+            "tags": ["Users"],
+            "description": "update user...",
+            "parameters": [
+                {
+                    "name": "update user",
+                    "in": "path",
+                    "description": "update",
+                    "schema": {
+                        "$ref": "#/definitions/User"
+                    }
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "201": {
+                    "description": "User updated successfully"
+                }
+            }
+        }
+      },
       "/user/login": {
         "post": {
-          "tags": ["Signin_Users"],
+          "tags": ["Users"],
           "description": "login name...",
           "parameters": [
             {
@@ -104,6 +128,29 @@
           }
         }
       },
+      "/user/delete/:_id": {
+        "delete": {
+            "tags": ["Users"],
+            "description": "delete user...",
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "description": "delete",
+                    "required": true,
+                    "type": "string"
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "201": {
+                    "description": "User deleted successfully"
+                }
+            }
+        }
+      },
       "/note": {
         "post": {
           "tags": ["Notes"],
@@ -113,6 +160,7 @@
               "name": "create note",
               "in": "body",
               "description": "register",
+              "- in": "path",
               "schema": {
                 "$ref": "#/definitions/Note"
               }
@@ -127,6 +175,87 @@
           "responses": {
             "201": {
               "description": "Note created successfully"
+            }
+          }
+        }
+      },
+      "/note/{:_id}": {
+        "get": {
+          "tags": ["Notes"],
+          "description": "get note...",
+          "parameters": [
+            {
+              "name": "fetching note",
+              "in": "path",
+              "description": "register",
+              "schema": {
+                "$ref": "#/definitions/Note"
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "responses": {
+            "201": {
+              "description": "Note fetched successfully"
+            }
+          }
+        }
+      },
+      "/note/:_id": {
+        "put": {
+          "tags": ["Notes"],
+          "description": "updating the note...",
+          "parameters": [
+            {
+              "name": "update note",
+              "in": "path",
+              "description": "register",
+              "schema": {
+                "$ref": "#/definitions/Note"
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "responses": {
+            "201": {
+              "description": "Note updated successfully"
+            }
+          }
+        }
+      },
+      "/note/delete/:_id": {
+        "delete": {
+          "tags": ["Notes"],
+          "description": "delete note...",
+          "parameters": [
+            {
+              "name": "delete note",
+              "in": "path",
+              "description": "register",
+              "schema": {
+                "$ref": "#/definitions/Note"
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "responses": {
+            "201": {
+              "description": "Note deleted successfully"
             }
           }
         }
@@ -168,7 +297,8 @@
             "type": "string"
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "required": "true"
             }
           }
         }

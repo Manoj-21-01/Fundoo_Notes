@@ -12,13 +12,13 @@ router.post('/:_id',noteController.getNote);
 
 router.get('',noteController.getAllNotes);
 
-
+router.get('/:_id',noteController.getNote);
 // router.post('', noteController.loginNote);
 
 //route to delete a note
-router.delete('/:noteId', noteController.deleteNote);
+router.delete('/delete/:_id', noteController.deleteNote);
 
 //route to update a note
-router.put('/:noteId', noteController.updateNote);
+router.put('/:_id', noteController.updateNote);
 
 export default router;

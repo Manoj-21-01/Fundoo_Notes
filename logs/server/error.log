@@ -5295,3 +5295,443 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-02-01T11:42:18.616Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/:_id 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-02-02T06:20:21.564Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/:_id 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-02-02T06:21:21.834Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T06:55:12.854Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T06:59:05.857Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:01:23.927Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:06:41.749Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:06:59.405Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:07:30.427Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:07:44.599Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:08:15.222Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:noteId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:13:13.931Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:noteId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:13:24.770Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUser is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:22:14.388Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUserById is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:23:36.799Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:38)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:24:18.010Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUserById is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:26:42.083Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:27:50.528Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:28:24.723Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:28:54.551Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:29:22.036Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:30:02.969Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:33:48.401Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:18:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:36:00.147Z"}

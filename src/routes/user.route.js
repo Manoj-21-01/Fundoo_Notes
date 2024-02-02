@@ -13,9 +13,9 @@ router.post('/login', userController.loginUser);
 
 router.get('/profile', userAuth, userController.getUser);
 //route to update a single user by their user id
-// router.put('/:_id', userController.updateUser);
+router.put('/:_id', userController.updateUser);
 
 // // //route to delete a single user by their user id
-// router.delete('/:_id', userController.deleteUser);
+router.delete('/delete/:_id', userController.deleteUser);
 
 export default router;

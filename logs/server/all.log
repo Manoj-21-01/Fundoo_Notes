@@ -6396,3 +6396,684 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-02-01T11:42:18.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:04:20.181Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:04:20.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:10:38.230Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:10:38.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:10:49.898Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:10:49.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:10:57.715Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:10:57.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:11:03.263Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:11:03.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:11:05.075Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:11:05.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:11:08.331Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:11:08.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:11:18.034Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:11:18.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:12:36.938Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:12:36.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:16.384Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:16.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:21.258Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:21.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:30.896Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:30.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:42.145Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:42.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:45.846Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:45.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:49.618Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:49.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:51.530Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:51.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:13:53.918Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:13:53.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:03.556Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:03.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:23.464Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:23.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:34.314Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:34.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:37.322Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:37.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:40.618Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:40.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:49.996Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:50.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:14:55.575Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:14:55.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:15:02.543Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:15:02.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:15:04.655Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:15:04.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:15:22.693Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:15:22.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:17:13.825Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:17:13.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:17:24.335Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:17:24.355Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/:_id 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-02-02T06:20:21.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:20:53.574Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:20:53.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:21:08.235Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:21:08.250Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/:_id 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-02-02T06:21:21.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:22:07.934Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:22:07.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:27:46.419Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:27:46.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:30:42.859Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:30:42.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:33:59.618Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:33:59.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:34:03.823Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:34:03.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:34:51.608Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:34:51.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:34:56.014Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:34:56.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:35:09.405Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:35:09.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:38:32.887Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:38:32.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:40:25.955Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:40:25.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:40:44.617Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:40:44.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:43:38.210Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:43:38.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:44:37.084Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:44:37.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:52:03.485Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:52:03.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:52:32.538Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:52:32.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:52:39.377Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:52:39.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:53:55.746Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:53:55.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:54:00.128Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:54:00.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:54:08.603Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:54:08.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:54:21.653Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:54:21.668Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T06:55:12.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:55:46.865Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:55:46.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:55:50.823Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:55:50.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:58:48.858Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:58:48.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:59:03.584Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:59:03.601Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T06:59:05.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T06:59:16.578Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T06:59:16.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:01:11.695Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:01:11.709Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:01:23.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:06:39.215Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:06:39.229Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:noteId 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:06:41.749Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:06:59.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:07:26.932Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:07:26.950Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:07:30.427Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:07:44.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:07:59.566Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:07:59.582Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/delete/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:08:15.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:09:42.189Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:09:42.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:11:11.966Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:11:11.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:13:12.699Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:13:12.712Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:noteId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:13:13.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:13:24.131Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:13:24.158Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":noteId" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/note/:noteId 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:13:24.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:14:31.462Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:14:31.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:14:33.245Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:14:33.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:14:43.601Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:14:43.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:16:08.500Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:16:08.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:17:50.815Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:17:50.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:18:05.289Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:18:05.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:18:40.244Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:18:40.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:18:56.032Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:18:56.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:04.507Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:04.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:20.223Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:20.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:23.014Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:23.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:31.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:32.702Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:32.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:36.825Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:36.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:41.859Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:41.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:19:58.026Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:19:58.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:05.440Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:05.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:08.191Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:08.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:39.374Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:39.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:41.917Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:41.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:52.571Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:52.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:20:56.642Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:20:56.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:10.974Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:10.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:16.907Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:16.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:20.166Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:20.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:24.401Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:24.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:30.333Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:30.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:35.538Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:35.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:44.602Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:44.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:21:53.232Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:21:53.257Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUser is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:22:14.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:23:32.214Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:23:32.228Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUserById is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:23:36.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:24:12.068Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:24:12.086Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:38)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:24:18.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:26:23.262Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:26:23.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:26:37.386Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:26:37.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:26:39.646Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:26:39.662Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.deleteUserById is not a function
+    at _callee6$ (D:\project1_googleapi\src\controllers\/user.controller.js:112:23)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\project1_googleapi\src\controllers\/user.controller.js:110:24)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project1_googleapi\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:284:15
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\project1_googleapi\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project1_googleapi\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project1_googleapi\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project1_googleapi\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\project1_googleapi\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\project1_googleapi\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\project1_googleapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project1_googleapi\node_modules\express\lib\router\index.js:328:13)
+    at D:\project1_googleapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project1_googleapi\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project1_googleapi\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\project1_googleapi\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\project1_googleapi\node_modules\helmet\dist\index.js:145:6) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:26:42.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:27:30.129Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:27:30.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:27:39.206Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:27:39.221Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:27:50.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:28:20.792Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:28:20.816Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:28:24.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:28:46.538Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:28:46.555Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:28:54.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:29:12.916Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:29:12.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:29:16.202Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:29:16.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:29:19.811Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:29:19.826Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:29:22.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:29:54.592Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:29:54.606Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:30:02.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:30:32.759Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:30:32.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:30:36.368Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:30:36.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:30:40.827Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:30:40.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:30:47.168Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:30:47.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:31:54.362Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:31:54.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:31:57.670Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:31:57.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:32:04.371Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:32:04.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:33:40.634Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:33:40.649Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project1_googleapi\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/delete/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:33:48.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:33:55.273Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:33:55.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:33:57.369Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:33:57.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:34:54.179Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:34:54.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:35:26.250Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:35:26.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:35:35.162Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:35:35.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-02-02T07:35:39.607Z"}
+info: Connected to the database. {"timestamp":"2024-02-02T07:35:39.624Z"}
+error: 
+    status - 500 
+    message - Error: User with the same email already exists
+    at _callee2$ (D:\project1_googleapi\src\services\/user.service.js:18:11)
+    at tryCatch (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project1_googleapi\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/user/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-02-02T07:36:00.147Z"}
