@@ -124,7 +124,32 @@
           }
         }
       },
-      "/note/update/noteId": {
+      "/note/all/{id}": {
+        "get": {
+          "tags": ["Notes"],
+          "description": "get notes...",
+          "parameters": [
+            {
+              "name": "fetching notes",
+              "in": "path",
+              "description": "register",
+              "require": true
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "responses": {
+            "201": {
+              "description": "All notes fetched successfully"
+            }
+          }
+        }
+      },
+      "/note/update/{id}": {
         "put": {
           "tags": ["Notes"],
           "description": "updating the note...",
